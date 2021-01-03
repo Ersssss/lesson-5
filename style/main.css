@@ -30,8 +30,7 @@ body {
 .triangle {
   position: absolute;
   bottom: 10%;
-  left: 38em;
-  right: 41em;
+  right: 674px;
 
 	border-width: 10px 8px 10px 0;
 	border-color: transparent #00A4E5 transparent transparent;
@@ -161,12 +160,17 @@ button {
 } 
 
 .about {
+  display: flex;
+  flex-wrap: wrap;
+
   margin: 65px 0 120px;
   width: 940px;
   height: 345px;
 }
 
 .story {
+  
+
   margin: 130px 0 0;
   font-family: 'Open Sans';
   font-size: 18px;
@@ -187,6 +191,8 @@ button {
 }
 
 .text-john {
+  display: flex;
+  flex-wrap: wrap;
   width: 405px;
   height: 80px;
   margin: 0 0 30px;
@@ -205,6 +211,8 @@ button {
 }
 
 .text__john-lower {
+  display: flex;
+  flex-wrap: wrap;
   width: 405px;
   height: 115px;
 
@@ -219,3 +227,39 @@ button {
   color: #48555B;
 
 }
+
+.about__image-pos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bitmap-image{
+  width: 140px;
+  height: 224px;
+  margin-left: 1vw;
+  padding: 14px 0 0 15px;
+  text-align: left;
+}
+
+.bitmap-image--plan-bg{
+  background: url(../img/table.png) no-repeat center;
+}
+
+.bitmap-image--manage-bg{
+  background: url(../img/notebook.png) no-repeat center;
+}
+
+.bitmap-image--build-bg{
+  background: url(../img/turnstile.jpg) no-repeat center;
+}
+
+.about__card-text{
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+
