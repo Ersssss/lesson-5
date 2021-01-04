@@ -86,9 +86,9 @@ body {
 
 .navbar {
   position: absolute;
-  width: 1440px;
+  width: 1439px;
   height: 65px;
-  left: 27px;
+  left: 220px;
   top: 48em;
 
   background: #FFFFFF;
@@ -259,16 +259,19 @@ button {
   text-transform: uppercase;
 }
 
-/* дописать флексовую функцию */
-/* .title {
+.services {
   display: flex;
-  flex-wrap: wrap;
-} */
 
-.title__text {
-  width: 200px;
+  width: 940px;
+  height: 446px;
+  left: calc(50% - 940px/2);
+  bottom: 1011px;
+}
+
+.services__title {
+  width: 215px;
   height: 25px;
-  margin: 120px 0 0;
+  margin: 120px 0;
 
   font-family: 'Open Sans';
   font-style: normal;
@@ -279,31 +282,58 @@ button {
 
   display: flex;
   align-items: flex-end;
-  letter-spacing: 2.3px;
 
   color: #48555B;
 }
 
-.title__line {
+/* .line__title {
   width: 64px;
   height: 1px;
-  background: #00A4E5;
+  background: #E72424;
   border: none;
-  margin: 10px 0;
-}
 
-.title__text-lowwer {
+  margin: 10px auto;
+} */
+
+.services__subtitle {
+  margin: 110px 32px 0 155px;
+
   width: 405px;
   height: 40px;
-  
+  left: 355px;
+
   font-family: 'Open Sans';
-  font-size: 11px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 11px;
   line-height: 19px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
 
   color: #48555B;
+
+}
+
+.service__title--button {
+  margin: 110px auto;
+
+  width: 150px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  background: #00A4E5;
+}
+
+.service__title--button-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #FFFFFF;
 }
