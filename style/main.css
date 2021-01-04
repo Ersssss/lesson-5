@@ -4,7 +4,6 @@ body {
   width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 auto;
 
   justify-content: center;
 }
@@ -260,6 +259,51 @@ button {
   text-transform: uppercase;
 }
 
+/* дописать флексовую функцию */
+/* .title {
+  display: flex;
+  flex-wrap: wrap;
+} */
 
+.title__text {
+  width: 200px;
+  height: 25px;
+  margin: 120px 0 0;
 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
 
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 2.3px;
+
+  color: #48555B;
+}
+
+.title__line {
+  width: 64px;
+  height: 1px;
+  background: #00A4E5;
+  border: none;
+  margin: 10px 0;
+}
+
+.title__text-lowwer {
+  width: 405px;
+  height: 40px;
+  
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  text-transform: uppercase;
+
+  color: #48555B;
+}
