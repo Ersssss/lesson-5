@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 1440px;
-  min-height: 100vh;
+  height: 768px;
   margin: 0 auto;
 
   justify-content: center;
@@ -260,6 +260,7 @@ button {
 
 .services {
   display: flex;
+  flex-wrap: wrap;
 
   width: 940px;
   height: 446px;
@@ -295,7 +296,7 @@ button {
 } */
 
 .services__subtitle {
-  margin: 110px 32px 0 155px;
+  margin: 110px 32px 0 135px;
 
   width: 405px;
   height: 40px;
@@ -335,4 +336,15 @@ button {
   text-align: center;
 
   color: #FFFFFF;
+}
+
+.benefits-list {
+  margin-top: 10px;
+}
+
+.benefit-item {
+  display: inline-block;
+  width: 350px;
+  color: black;
+  margin-right: 36px;
 }
