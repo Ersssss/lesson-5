@@ -53,11 +53,11 @@
 
 .company{
   width: 80vw;
-  }
+}
 
 .company__text{
   width: 100%;
-  }
+}
 
 .links{
   width: 80vw;
@@ -68,14 +68,18 @@
   width: 100%;
   margin: 3vh 0 2vh;
   padding-right: 5vw;
-  }
+}
 
   .footer__head{
   flex-wrap: wrap;
   justify-content: space-between;
-  }
+}
 
 .footer__contact__text{
   width: 70vw;
-  }
+}
+
+.nav {
+  display: block;
+}
 }

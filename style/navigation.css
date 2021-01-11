@@ -32,7 +32,7 @@ border: 1px solid #e6e6e6;
   
 .menu__list {
   display: flex;
-  /* padding-left: 550px; */
+  padding-left: 550px;
 }
   
 .menu__item {
