@@ -1,0 +1,65 @@
+.services {
+  padding: 0 8vw 15vh;
+}
+
+
+.services__inform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.line--left {
+  margin: 0;
+}
+
+
+.services__text {
+  width: 24vw;
+  font-size: 11px;
+  line-height: 23px;
+  color: #48555b;
+}
+
+.button {
+  width: 11vw;
+  height: 5vh;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 00.1vw;
+  color: #ffffff;
+  background-color: #00a4e5;
+  border: none;
+}
+
+
+.services__box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10vh;
+}
+
+.card {
+  width: 18vw;
+  padding: 3em 1em 3em 2em;
+  border: 1px solid #48555b;
+}
+
+.card__image {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+.card__image--project-bg {
+  background: url(../img/icons/project.png) no-repeat left;
+}
+
+.card__image--structure-bg {
+  background: url(../img/icons/shop.png) no-repeat left;
+}
+
+.card__image--factory-bg {
+  background: url(../img/icons/shop.png) no-repeat left;
+}

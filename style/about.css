@@ -1,0 +1,81 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 8vw 12vh;
+}
+
+.caption {
+  margin-bottom: 10px;
+  font-size: 2.5vh;
+  letter-spacing: 2.3px;
+  color: #48555b;
+}
+
+.line {
+  width: 50px;
+  margin: 0 auto;
+  border: 1px solid #00a4e5;
+}
+
+.about__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10vh 0 0 0;
+}
+
+.about__inform {
+  width: calc(25vw + 1vw);
+  text-align: left;
+}
+
+.about__subtitle {
+  margin-bottom: 3vh;
+  font-size: calc(14px + 0.5vw);
+  font-weight: 700;
+  color: #48555b;
+}
+
+.blue-text {
+  color: #00a4e5;
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 23px;
+  color: #48555b;
+}
+
+.about__image {
+  display: flex;
+  flex-wrap: wrap;
+}
+.we-image {
+  width: 9.5vw;
+  height: 34vh;
+  margin-left: 0.5vw;
+  padding: 1vh 0 0 1.5vw;
+  text-align: left;
+}
+
+.we-image--plan-bg {
+  background: url(../img/box-img/table.png) no-repeat center/cover;
+}
+
+.we-image--manage-bg {
+  background: url(../img/box-img/notebook.png) no-repeat center/cover;
+}
+
+.we-image--build-bg {
+  background: url(../img/box-img/turnstile.png) no-repeat center/cover;
+}
+
+.about__heading {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+}

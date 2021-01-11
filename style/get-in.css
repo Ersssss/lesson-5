@@ -1,0 +1,144 @@
+.get-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.get-in--bg {
+  background: url(../img/backgrounds/footer-bg.png) no-repeat center/cover;
+}
+
+.get-in--button {
+  text-transform: uppercase;
+}
+
+.get-in__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-in__title {
+  margin-bottom: 5vw;
+  font-size: 5vh;
+  font-weight: 700;
+  text-align: center;
+  color: #48555b;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh 0;
+  background-color: #171819;
+}
+
+.newsletter__content {
+  display: flex;
+}
+
+.newsletter__subtitle {
+  margin-right: 5vw;
+  font-size: 3vh;
+  color: #ffffff;
+}
+
+.email {
+  width: 13vw;
+  padding-left: 1vw;
+  font-size: 2vh;
+  border: none;
+}
+
+.button--newsletter {
+  width: 11vw;
+  height: 5vh;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 00.1vw;
+  color: #ffffff;
+  background-color: #00a4e5;
+  border: none;
+}
+
+.footer__head {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 8vw 5vh 8vw;
+  color: #ffffff;
+  background-color: #141A20;
+}
+
+.footer__subtitle {
+  margin-bottom: 2vh;
+  font-size: 11px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.company__text {
+  width: 15vw;
+  margin-top: 1.9vh;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.85px;
+  line-height: 19px;
+}
+
+.links__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links__nav {
+  margin-right: 3vw;
+  padding-left: 2px;
+}
+
+.links__faq {
+  margin-right: 3vw;
+}
+
+.footer__item {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.85px;
+  text-transform: uppercase;
+}
+
+.footer__item:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__item:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.footer__contact {
+  display: flex;
+}
+
+.footer__contact__text {
+  width: 8vw;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.85px;
+}
+
+
+.social-media__image {
+  margin-left: 2vw;
+  filter: brightness(0) invert(1);
+}
