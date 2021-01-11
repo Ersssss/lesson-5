@@ -1,10 +1,10 @@
 @media (max-width: 768px){
 .wrap{
-  width: 100vw;
+  width: 100%; 
 }
 
 .menu {
-  display: none;
+display: none;
 }
 
 .menu-btn {
@@ -12,16 +12,16 @@
 }
 
 .about__inform{
-  width: 100%;
+  width: 100%;  
 }
 
 .we-image{
-  width: 85vw;
+  width: 85%;
   margin: 10px 0;
 }
 
 .services__text{
-  width: 100%;
+  width: 100%;  
 }
 
 .button{
@@ -39,28 +39,28 @@
 }
 
 .email{
-  width: 45vw;
+  width: 45%;  
 }
 
 .button--newsletter{
-  width: 45vw;
+  width: 45%;  
 }
-  
+
 .newsletter__content{
   flex-direction: column;
   margin-top: 1vh;
 }
 
 .company{
-  width: 80vw;
+  width: 80%;  
 }
 
 .company__text{
-  width: 100%;
+  width: 100%;  
 }
 
 .links{
-  width: 80vw;
+  width: 80%;  
 }
 
 .links__list{
@@ -70,16 +70,144 @@
   padding-right: 5vw;
 }
 
-  .footer__head{
+.footer__head{
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.footer__contact__text{
-  width: 70vw;
+  .footer__contact__text{
+  width: 70%;  
 }
 
-.nav {
-  display: block;
+
 }
+
+
+@media (max-height: 1024px){
+
+.button{
+  width: 100%;
+  margin-left: 0;
+}
+
+.about__image{
+  width: 100%;
+  justify-content: space-between;
+}
+
+e-image{
+  width: 25%;  
+}
+
+.card{
+  width: 100%;  
+}
+
+.email{
+  width: 45%;  
+}
+
+.button--newsletter{
+  width: 45%;  
+}
+
+.newsletter__content{
+  flex-direction: column;
+margin-top: 10px;
+}
+
+.company{
+  width: 100%;  
+}
+
+.links{
+  width: 100%;  
+}
+
+.footer__contact{
+  width: 100%;  
+}
+
+}
+
+@media(max-width: 1024px)  {
+
+.wrap{
+  width: 100%;  
+}
+
+.about__inform{
+  width: 100%;
+  margin: 3vh 0;
+}
+
+.about__image{
+  width: 100%;
+    justify-content: space-between;
+}
+
+e-image{
+  width: 25%;  
+}
+
+.button{
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.services__text{
+  font-size: 14px;
+}
+
+.card{
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 1vh;
+}
+
+.newsletter{
+  flex-direction: column;
+}
+
+.email{
+  width: 45%;  
+}
+
+.button--newsletter{
+  width: 45%;  
+}
+
+.newsletter__content{
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.company__text{
+  width: 100%;  
+}
+
+.links{
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.links__list{
+  margin: 3vh 0 2vh;
+}
+
+.footer__head{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__contact{
+  width: 100%;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.footer__contact__text{
+  width: 70%;  
+}
+
 }

@@ -32,7 +32,6 @@ border: 1px solid #e6e6e6;
   
 .menu__list {
   display: flex;
-  padding-left: 550px;
 }
   
 .menu__item {
@@ -57,7 +56,7 @@ border: 1px solid #e6e6e6;
   color: #00a4e5;
   transform: scale(1.2);
 }
-/*   
+  
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -66,7 +65,8 @@ border: 1px solid #e6e6e6;
   right: 9vw;
   width: 30px;
   height: 28px;
-  cursor: pointer;}
+  cursor: pointer;
+}
   
 .menu-btn__burger {
   position: absolute;
@@ -93,4 +93,4 @@ border: 1px solid #e6e6e6;
   width: 30px;
   background-color: #333333;
 }
-   */
+  
