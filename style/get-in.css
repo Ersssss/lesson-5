@@ -47,7 +47,6 @@
 }
 
 .email {
-  width: 13vw;
   padding-left: 1vw;
   font-size: 2vh;
   border: none;
@@ -120,7 +119,6 @@
   text-decoration: none;
 }
 
-
 li {
   list-style-type: none;
 }
@@ -136,7 +134,6 @@ li {
   line-height: 16px;
   letter-spacing: 0.85px;
 }
-
 
 .social-media__image {
   margin-left: 2vw;

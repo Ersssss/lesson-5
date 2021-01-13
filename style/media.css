@@ -8,7 +8,7 @@
   order: -1;
 }
 
-.menu   {
+.menu__list{
   display: none;
 }
 
@@ -93,7 +93,7 @@
 }
 
 
-@media (height: 1024px) {
+@media (max-height: 1024px) {
 
 
 .about__image {
@@ -132,12 +132,10 @@
 .footer__contact  {
   width: 100%;
 }
-
-  
-  }
+}
 
 
-@media (width: 1024px)  {
+/* @media (max-width: 1024px)  {
 
 .wrap {
   width: 100%;
@@ -215,4 +213,5 @@
 
 .footer__contact__text  {
   width: 70vw;
-}}
+}
+} */
