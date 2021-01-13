@@ -1,213 +1,218 @@
-@media (max-width: 768px){
-.wrap{
-  width: 100%; 
+@media (max-width: 768px)   {
+
+.wrap {
+  width: 100%;
 }
 
-.menu {
-display: none;
+.nav  {
+  order: -1;
 }
 
-.menu-btn {
+.menu   {
+  display: none;
+}
+
+.menu-btn   {
   display: block;
 }
 
-.about__inform{
-  width: 100%;  
+.about__inform {
+  width: 100%;
 }
 
-.we-image{
-  width: 85%;
+.we-image {
+  width: 85vw;
   margin: 10px 0;
 }
 
-.services__text{
-  width: 100%;  
-}
-
-.button{
+.services__text {
   width: 100%;
   margin-top: 4vh;
 }
 
-.card{
+.button {
+  margin-top: 4vh;
+}
+
+.card {
   width: 100%;
   margin: 10px 0;
 }
 
-.newsletter{
+.newsletter {
   flex-direction: column;
 }
 
-.email{
-  width: 45%;  
+.email  {
+  width: 45vw;
 }
 
-.button--newsletter{
-  width: 45%;  
+.button--newsletter {
+  width: 45vw;
+  margin: 0;
 }
-
-.newsletter__content{
+  
+.newsletter__content  {
   flex-direction: column;
   margin-top: 1vh;
 }
 
-.company{
-  width: 80%;  
+.company  {
+  width: 80vw;
 }
 
-.company__text{
-  width: 100%;  
+.company__text  {
+  width: 100%;
 }
 
-.links{
-  width: 80%;  
+.links  {
+  width: 80vw;
 }
 
-.links__list{
+.links__list  {
   justify-content: space-between;
   width: 100%;
   margin: 3vh 0 2vh;
   padding-right: 5vw;
 }
 
-.footer__head{
+.footer__head {
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-  .footer__contact__text{
-  width: 70%;  
+.footer__contact__text  {
+  width: 70vw;
+}
+
+.contact__social-media  {
+  display: flex;
+  
+}
+
 }
 
 
-}
+@media (height: 1024px) {
 
 
-@media (max-height: 1024px){
-
-.button{
-  width: 100%;
-  margin-left: 0;
-}
-
-.about__image{
+.about__image {
   width: 100%;
   justify-content: space-between;
 }
 
-e-image{
-  width: 25%;  
+.we-image {
+  width: 25vw;
 }
 
-.card{
-  width: 100%;  
+.card {
+  width: 100%;
 }
 
-.email{
-  width: 45%;  
+.email  {
+  width: 45vw;
 }
 
-.button--newsletter{
-  width: 45%;  
+.button--newsletter {
+  width: 45vw;
 }
-
-.newsletter__content{
+  
+.newsletter__content  {
   flex-direction: column;
-margin-top: 10px;
+  margin-top: 10px;
 }
 
-.company{
-  width: 100%;  
+.company  {
+  width: 100%;
 }
 
-.links{
-  width: 100%;  
+.links  {
+  width: 100%;
+}
+.footer__contact  {
+  width: 100%;
 }
 
-.footer__contact{
-  width: 100%;  
+  
+  }
+
+
+@media (width: 1024px)  {
+
+.wrap {
+  width: 100%;
 }
 
-}
-
-@media(max-width: 1024px)  {
-
-.wrap{
-  width: 100%;  
-}
-
-.about__inform{
+.about__inform  {
   width: 100%;
   margin: 3vh 0;
 }
 
-.about__image{
+.about__image {
   width: 100%;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-e-image{
-  width: 25%;  
+.we-image {
+  width: 26vw;
 }
 
-.button{
-  width: 100%;
+.button {
   margin: 10px 0 0;
 }
 
-.services__text{
+.services__text {
   font-size: 14px;
 }
 
-.card{
+.card {
   width: 100%;
   margin-right: 0;
   margin-bottom: 1vh;
 }
 
-.newsletter{
+.newsletter {
   flex-direction: column;
 }
 
-.email{
-  width: 45%;  
+.email  {
+  width: 45vw;
 }
 
-.button--newsletter{
-  width: 45%;  
+.button--newsletter {
+  width: 45vw;
+  margin: 0;
 }
-
-.newsletter__content{
+  
+.newsletter__content  {
   flex-direction: column;
   margin-top: 10px;
 }
 
-.company__text{
-  width: 100%;  
+.company__text  {
+  width: 100%;
 }
 
-.links{
+.links  {
   justify-content: space-between;
-  width: 100%;  
+  width: 100%;
 }
 
-.links__list{
+.links__list  {
   margin: 3vh 0 2vh;
 }
 
-.footer__head{
+.footer__head {
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.footer__contact{
+.footer__contact  {
   width: 100%;
   justify-self: center;
   justify-content: space-between;
 }
 
-.footer__contact__text{
-  width: 70%;  
-}
-
-}
+.footer__contact__text  {
+  width: 70vw;
+}}
