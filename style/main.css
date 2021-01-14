@@ -1,8 +1,4 @@
  body {
-  margin: 0 auto;
-}
-
-.wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;

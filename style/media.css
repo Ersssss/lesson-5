@@ -21,7 +21,7 @@
 }
 
 .we-image {
-  width: 85vw;
+  width: 85%;
   margin: 10px 0;
 }
 
@@ -55,11 +55,10 @@
   
 .newsletter__content {
   flex-direction: column;
-  margin-top: 1vh;
 }
 
 .company {
-  width: 80vw;
+  width: 80%;
 }
 
 .company__text {
@@ -67,7 +66,7 @@
 }
 
 .links {
-  width: 80vw;
+  width: 80%;
 }
 
 .links__list {
@@ -83,7 +82,7 @@
 }
 
 .footer__contact__text {
-  width: 70vw;
+  width: 70%;
 }
 
 .contact__social-media {
