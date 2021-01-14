@@ -49,11 +49,12 @@
 .email {
   padding-left: 1vw;
   font-size: 2vh;
+  text-align: center;
+
   border: none;
 }
 
 .button--newsletter {
-  width: 11vw;
   height: 5vh;
   font-size: 13px;
   font-weight: 700;

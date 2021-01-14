@@ -1,10 +1,10 @@
-@media (max-width: 768px)   {
+@media (max-width: 768px) {
 
 .wrap {
   width: 100%;
 }
 
-.nav  {
+.nav {
   order: -1;
 }
 
@@ -12,7 +12,7 @@
   display: none;
 }
 
-.menu-btn   {
+.menu-btn {
   display: block;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .button {
+  width: 25vh;
   margin-top: 4vh;
 }
 
@@ -43,33 +44,33 @@
   flex-direction: column;
 }
 
-.email  {
+.email {
   width: 45vw;
 }
 
 .button--newsletter {
-  width: 45vw;
-  margin: 0;
+  width: 46vw;
+  margin: 0 auto;
 }
   
-.newsletter__content  {
+.newsletter__content {
   flex-direction: column;
   margin-top: 1vh;
 }
 
-.company  {
+.company {
   width: 80vw;
 }
 
-.company__text  {
+.company__text {
   width: 100%;
 }
 
-.links  {
+.links {
   width: 80vw;
 }
 
-.links__list  {
+.links__list {
   justify-content: space-between;
   width: 100%;
   margin: 3vh 0 2vh;
@@ -81,137 +82,14 @@
   justify-content: space-between;
 }
 
-.footer__contact__text  {
+.footer__contact__text {
   width: 70vw;
 }
 
-.contact__social-media  {
+.contact__social-media {
   display: flex;
   
 }
 
 }
 
-
-@media (max-height: 1024px) {
-
-
-.about__image {
-  width: 100%;
-  justify-content: space-between;
-}
-
-.we-image {
-  width: 25vw;
-}
-
-.card {
-  width: 100%;
-}
-
-.email  {
-  width: 45vw;
-}
-
-.button--newsletter {
-  width: 45vw;
-}
-  
-.newsletter__content  {
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.company  {
-  width: 100%;
-}
-
-.links  {
-  width: 100%;
-}
-.footer__contact  {
-  width: 100%;
-}
-}
-
-
-/* @media (max-width: 1024px)  {
-
-.wrap {
-  width: 100%;
-}
-
-.about__inform  {
-  width: 100%;
-  margin: 3vh 0;
-}
-
-.about__image {
-  width: 100%;
-  justify-content: space-between;
-}
-
-.we-image {
-  width: 26vw;
-}
-
-.button {
-  margin: 10px 0 0;
-}
-
-.services__text {
-  font-size: 14px;
-}
-
-.card {
-  width: 100%;
-  margin-right: 0;
-  margin-bottom: 1vh;
-}
-
-.newsletter {
-  flex-direction: column;
-}
-
-.email  {
-  width: 45vw;
-}
-
-.button--newsletter {
-  width: 45vw;
-  margin: 0;
-}
-  
-.newsletter__content  {
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.company__text  {
-  width: 100%;
-}
-
-.links  {
-  justify-content: space-between;
-  width: 100%;
-}
-
-.links__list  {
-  margin: 3vh 0 2vh;
-}
-
-.footer__head {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer__contact  {
-  width: 100%;
-  justify-self: center;
-  justify-content: space-between;
-}
-
-.footer__contact__text  {
-  width: 70vw;
-}
-} */
